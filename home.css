@@ -1,3 +1,72 @@
 h1 {
     text-align: center;
   }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-radius: 100px;
+  }
+
+  .bootstrap-grid .row > * {
+    padding: 0%;
+  }
+
+  .title-style{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  nav.navbar{
+    background-color: var(--gray2);
+  }
+
+  .intro-style{
+    display: block;
+    background-color: var(--bootstrap-gray400);
+    color: var(--midnight-blue);
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .cv-style{
+    display: block;
+    background-color: var(--bootstrap-gray400);
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .projects-style{
+    display: block;
+    background-color: var(--bootstrap-gray400);
+    color: var(--midnight-blue);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .contact-style{
+    display: block;
+    background-color: var(--bootstrap-gray400);
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sidebar-left{
+    display: block;
+    background-color: var(--darkgray);
+    color: var(--bootstrap-gray400);
+    height: 100%;
+  }
+
+  .sidebar-right{
+    width: fit-content;
+  }
+  /* .navbar-brand{
+    text-align: center;
+  } */

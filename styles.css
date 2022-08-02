@@ -11,8 +11,18 @@
     --bootstrap-gray100: #f8f9fa;
     --bootstrap-gray200: #e9ecef;
     --bootstrap-gray400: #ced4da;
+    --bootstrap-gray500: #adb5bd;
+    --bootstrap-gray600: #6c757d;
+    --bootstrap-gray700: #495057;
+    --bootstrap-gray800: #343a40;
+
+
+
+
 
     --black: #080808;
+    --darkgray: #121217;
+    --darkishgray: #4d0f0f;
     --teal: #006060;
     --lightteal: #008080;
     --purple: #800080;
@@ -22,6 +32,8 @@
     --red: #ff0000;
     --orange: #ffa500;
     --green: #006400;
+    --midnight-blue:#030d1c;
+    --lightblue:#e4f4f5;
   }
 
   body {
@@ -29,4 +41,12 @@
     font-size: 1.2em;
     color: var(--gray1);
     position: relative;
+    padding-top: 55px;
   }
+
+  :target {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;
+}
