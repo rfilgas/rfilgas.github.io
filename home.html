@@ -9,49 +9,143 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="home.css" />
     <!-- javascript file -->
-    <script defer src="home.js"></script>
   </head>
+
+      <!-- NAVBAR -->
+      <nav id="navbar-example2"  class="navbar navbar-expand-lg navbar-dark fixed-top ">
+        <ul class="navbar-nav ml-auto">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#intro">Intro</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#cv">CV</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            <ul>
+          </div>
+        </ul>
+      </nav>
+      <!-- NAVBAR -->
 
 
   <body>
-    <!-- NAVBAR -->
-    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <ul class="navbar-nav ml-auto">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#intro">Intro</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#CV">CV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-      <ul>
-    </nav>
-    <!-- NAVBAR -->
-
     <!-- CONTENT-->
-    <div data-target="#navbar-example2" data-offset="0">
-      <h4 id="intro">Intro</h4>
-      <p>Intrigued by the shower time to go zooooom. Pee in human's bed until he cleans the litter box ask to go outside and ask to come inside and ask to go outside and ask to come inside to pet a cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly or meow meow you are my owner so here is a dead bird for sleep in the bathroom sink or meow meow pee in shoe and human is in bath tub, emergency! drowning! meooowww!. Pretend you want to go out but then don't rub face on owner stare at imaginary bug why can't i catch that stupid red dot for meeeeouw roll on the floor purring your whiskers off. Immediately regret falling into bathtub floof tum, tickle bum, jellybean footies curly toes and spill litter box, scratch at owner, destroy all furniture, especially couch bury the poop bury it deep and good morning sunshine</p>
-      <h4 id="CV">CV</h4>
-      <p>Intrigued by the shower time to go zooooom. Pee in human's bed until he cleans the litter box ask to go outside and ask to come inside and ask to go outside and ask to come inside to pet a cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly or meow meow you are my owner so here is a dead bird for sleep in the bathroom sink or meow meow pee in shoe and human is in bath tub, emergency! drowning! meooowww!. Pretend you want to go out but then don't rub face on owner stare at imaginary bug why can't i catch that stupid red dot for meeeeouw roll on the floor purring your whiskers off. Immediately regret falling into bathtub floof tum, tickle bum, jellybean footies curly toes and spill litter box, scratch at owner, destroy all furniture, especially couch bury the poop bury it deep and good morning sunshine</p>
-      <h4 id="projects">Projects</h4>
-      <p>Intrigued by the shower time to go zooooom. Pee in human's bed until he cleans the litter box ask to go outside and ask to come inside and ask to go outside and ask to come inside to pet a cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly or meow meow you are my owner so here is a dead bird for sleep in the bathroom sink or meow meow pee in shoe and human is in bath tub, emergency! drowning! meooowww!. Pretend you want to go out but then don't rub face on owner stare at imaginary bug why can't i catch that stupid red dot for meeeeouw roll on the floor purring your whiskers off. Immediately regret falling into bathtub floof tum, tickle bum, jellybean footies curly toes and spill litter box, scratch at owner, destroy all furniture, especially couch bury the poop bury it deep and good morning sunshine</p>
-      <h4 id="contact">Contact</h4>
-      <p>Intrigued by the shower time to go zooooom. Pee in human's bed until he cleans the litter box ask to go outside and ask to come inside and ask to go outside and ask to come inside to pet a cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly or meow meow you are my owner so here is a dead bird for sleep in the bathroom sink or meow meow pee in shoe and human is in bath tub, emergency! drowning! meooowww!. Pretend you want to go out but then don't rub face on owner stare at imaginary bug why can't i catch that stupid red dot for meeeeouw roll on the floor purring your whiskers off. Immediately regret falling into bathtub floof tum, tickle bum, jellybean footies curly toes and spill litter box, scratch at owner, destroy all furniture, especially couch bury the poop bury it deep and good morning sunshine</p>
+    <div>
+      <!-- EVERYTHING -->
+      <span id="layout" ></span> <!-- Target for menu -->
+      <div class="bootstrap-grid layout-style">
+        <div class="row" >
+
+          <!-- SIDEBAR LEFT -->
+          <section class = "col-lg-3 col-md-4 ">
+            <div id="title-container" class="sidebar-left" >
+              <!-- IMAGE -->
+              <span id="image" ></span> <!-- Target for menu -->
+              <div class="bootstrap-grid title-style" >
+                <div class="row">
+                  <div class="col-12" id="title-container">
+                    <img src="../images/rfilgas.png" alt="headshot of Ryan Filgas" width="200" height="200" />
+                  </div>
+                </div>
+              </div>
+              <!-- IMAGE -->
+
+              <!-- TITLE -->
+              <span id="title"></span> <!-- Target for menu -->
+              <div class="bootstrap-grid title-style">
+                <div class="row">
+                  <div class="col-12" id="title-container">
+                  </div>
+                </div>
+              </div>
+              <!-- TITLE -->
+            </div>
+          </section>
+          <!-- SIDEBAR LEFT -->
+
+          <!-- SIDEBAR RIGHT -->
+          <div class="col-lg-9 col-md-8 sidebar-right" id="title-container">
+
+            <!-- INTRO -->
+            <span id="intro" ></span> <!-- Target for menu -->
+            <div class="bootstrap-grid intro-style">
+              <div class="row">
+                <div class="col-12" id="intro-container">
+                  <h4 id="intro-style" class="component">Hello.</h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- CV -->
+            <span id="cv" ></span> <!-- Target for menu -->
+            <div class="bootstrap-grid cv-style">
+              <div class="row">
+                <div class="col-12">
+                </div>
+              </div>
+            </div>
+            <!-- CV -->
+
+
+            <!-- PROJECTS -->
+            <span id="projects" ></span> <!-- Target for menu -->
+            <div class="bootstrap-grid projects-style">
+              <div class="row">
+                <div class="col-12">
+                  <h4 id="projects-style" class="component">Projects</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla mollis laoreet. Fusce justo velit, mollis auctor volutpat vel, lacinia a orci. Aliquam imperdiet, enim sed pellentesque iaculis, dui nibh suscipit magna, quis eleifend nisi dui ac felis. Quisque accumsan tellus eu lectus lacinia malesuada. Nam sit amet quam erat. Fusce imperdiet arcu non risus pharetra dignissim. Mauris a nunc erat. Praesent convallis, libero ac lobortis suscipit, augue purus porta ligula, nec consequat magna tellus ac sapien.
+
+                    Pellentesque placerat tortor sit amet sem sodales molestie. Sed dictum nec mi vitae dictum. Duis ornare elit id nisi porta porta. Cras sed erat id leo sagittis dictum. Praesent molestie lectus quam. Vestibulum id lorem pharetra, euismod elit at, tristique velit. Curabitur sagittis diam eu odio ultrices aliquet. Suspendisse euismod elit elit, vitae sagittis eros iaculis non. Sed sit amet sollicitudin leo. Aliquam tincidunt, ipsum eu viverra mollis, turpis metus fermentum quam, dapibus pellentesque nisl dui vitae massa. In commodo ipsum ac tortor hendrerit, quis scelerisque nunc dapibus. Donec fringilla, odio quis maximus tempus, lectus sapien rutrum leo, sit amet maximus elit sem id augue.
+
+                    Pellentesque porta fermentum nulla, at scelerisque tortor. Vivamus sit amet augue at ipsum dignissim congue. Nam posuere blandit diam, non convallis nisi pretium eu. Aliquam dapibus, ante id fermentum congue, felis elit accumsan dui, sed pharetra odio turpis ut diam. Duis quis quam quis nisi volutpat hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla at volutpat arcu. Curabitur vulputate velit sapien, a sagittis mauris vestibulum in. Aliquam egestas blandit diam, id porta eros vestibulum eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+                    Vivamus ullamcorper eros id tellus dignissim, sed eleifend tortor vehicula. Cras volutpat, purus sed sodales aliquam, mauris diam fermentum dui, ut lacinia turpis turpis id magna. Praesent consectetur magna dictum libero porttitor molestie. Cras leo urna, volutpat a nisi sit amet, tempor condimentum nunc. Sed pharetra vulputate pretium. Quisque a justo nisi. Mauris sed libero id nibh varius sollicitudin nec a ligula. Nullam hendrerit, sem sit amet lobortis volutpat, justo est varius tellus, ac pretium purus urna ut risus. Phasellus laoreet commodo gravida. Sed sed tempor enim. Nulla facilisi.</p>
+                </div>
+              </div>
+            </div>
+            <!-- PROJECTS -->
+
+            <!-- CONTACT -->
+            <span id="contact" ></span><!-- Target for menu -->
+            <div class="bootstrap-grid contact-style">
+              <div class="row">
+                <div class="col-12">
+                  <h4 id="contact-style" class="component">Contact</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla mollis laoreet. Fusce justo velit, mollis auctor volutpat vel, lacinia a orci. Aliquam imperdiet, enim sed pellentesque iaculis, dui nibh suscipit magna, quis eleifend nisi dui ac felis. Quisque accumsan tellus eu lectus lacinia malesuada. Nam sit amet quam erat. Fusce imperdiet arcu non risus pharetra dignissim. Mauris a nunc erat. Praesent convallis, libero ac lobortis suscipit, augue purus porta ligula, nec consequat magna tellus ac sapien.
+
+                    Pellentesque placerat tortor sit amet sem sodales molestie. Sed dictum nec mi vitae dictum. Duis ornare elit id nisi porta porta. Cras sed erat id leo sagittis dictum. Praesent molestie lectus quam. Vestibulum id lorem pharetra, euismod elit at, tristique velit. Curabitur sagittis diam eu odio ultrices aliquet. Suspendisse euismod elit elit, vitae sagittis eros iaculis non. Sed sit amet sollicitudin leo. Aliquam tincidunt, ipsum eu viverra mollis, turpis metus fermentum quam, dapibus pellentesque nisl dui vitae massa. In commodo ipsum ac tortor hendrerit, quis scelerisque nunc dapibus. Donec fringilla, odio quis maximus tempus, lectus sapien rutrum leo, sit amet maximus elit sem id augue.
+
+                    Pellentesque porta fermentum nulla, at scelerisque tortor. Vivamus sit amet augue at ipsum dignissim congue. Nam posuere blandit diam, non convallis nisi pretium eu. Aliquam dapibus, ante id fermentum congue, felis elit accumsan dui, sed pharetra odio turpis ut diam. Duis quis quam quis nisi volutpat hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla at volutpat arcu. Curabitur vulputate velit sapien, a sagittis mauris vestibulum in. Aliquam egestas blandit diam, id porta eros vestibulum eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+                    Vivamus ullamcorper eros id tellus dignissim, sed eleifend tortor vehicula. Cras volutpat, purus sed sodales aliquam, mauris diam fermentum dui, ut lacinia turpis turpis id magna. Praesent consectetur magna dictum libero porttitor molestie. Cras leo urna, volutpat a nisi sit amet, tempor condimentum nunc. Sed pharetra vulputate pretium. Quisque a justo nisi. Mauris sed libero id nibh varius sollicitudin nec a ligula. Nullam hendrerit, sem sit amet lobortis volutpat, justo est varius tellus, ac pretium purus urna ut risus. Phasellus laoreet commodo gravida. Sed sed tempor enim. Nulla facilisi.</p>
+                </div>
+              </div>
+            </div>
+            <!-- CONTACT -->
+          </div>
+          <!-- SIDEBAR RIGHT -->
+
+        </div>
+      </div>
     </div>
-    <!-- CONTENT -->
+    <!-- CONTENT END -->
+
 
     <!-- Bootstrap Dependencies -->
     <!-- Optional JavaScript -->
@@ -60,5 +154,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Bootstrap Dependencies -->
+    <script defer src="home.js"></script>
   </body>
 </html>
