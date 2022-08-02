@@ -1,9 +1,7 @@
-// Colapse navbar on click
+// Collapse navbar on click
 $('.navbar-nav').click(function () {
     $('.navbar-collapse').collapse('hide');
 });
-
-
 
 //  TEXT ELEMENTS
 
@@ -16,9 +14,6 @@ let title_textp0 = document.createElement("h1")
 title_textp0.textContent = `
 Ryan Filgas`
 title_textp0.style.textAlign = "center";
-// title_textp0.style.paddingBottom = "10px";
-// title_textp0.style.paddingLeft = "10px";
-// title_textp0.style.paddingRight = "10px";
 
 let title_textp1 = document.createElement("h6")
 title_textp1.textContent = `
@@ -56,19 +51,16 @@ intro_block.appendChild(intro_textp2);
 intro_block.appendChild(intro_textp3);
 
 
+// Text to be added for project -> will be trimmed down.
 
+// Google Cloud Platform Infrastructure for a small scale data pipeline using Terraform HCL, Confluent Kafka, and Bash.
 
-
-// let navbar = document.getElementById('navbar');
-// let navbar_container = document.createElement("div");
-// let navtext = document.createElement("h1");
-// navtext.textContent = " Intro Previous Work Projects Contact"
-// navbar_container.appendChild(navtext);
-// navbar.appendChild(navbar_container);
-//   "Would you like to sign up for the newsletter?";
-// newsletter_question.class = "newsletter_question";
-// newsletter_question.style.fontWeight = "bold";
-// newsletter_question.style.padding = "0";
-// newsletter_question.style.margin = "0";
-// form.appendChild(question_container);
-// question_container.appendChild(newsletter_question);
+// After taking data engineering at Portland State it occurred to me that the entire project build could be automated and
+// scalable, saving valuable class time and resources. Over a break between terms I sketched out what the infrastructure
+// would look like and successfully created a project that provisions resources for two virtual machines labeled producer
+// and consumer that can be used to pull data from public apis, send them to a Kafka topic, consume the messages and store
+// them in a sql database. The script creates and disposes of ssh keys and provides login commands after the build is complete. A
+// dditionally a script is pushed up to each virtual machine before executing. The vm scripts and program themselves are not
+// filled in as the project is meant to be a blank slate. In the future the project could be forked and used to create the
+// full pipeline in a repeatable way, the eventual intention is to adapt the class project to use go-lang and configure it
+// to use Portlands Trimet API instead of c-tran as a fully automated deployment. The proposed architecture for this is below:
