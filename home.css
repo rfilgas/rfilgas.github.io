@@ -2,12 +2,20 @@ h1 {
     text-align: center;
   }
 
-  img {
+
+  img.me {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     border-radius: 100px;
+  }
+
+  img.full-length-image{
+    border: 2px solid gray;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .bootstrap-grid .row > * {
@@ -24,6 +32,45 @@ h1 {
     background-color: var(--gray2);
   }
 
+  .line{
+    display: block;
+    height: 35px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: var(--gray5);
+    /* color: black; */
+    border-color: black;
+    margin-left: 50%;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .arrow-top{
+    display: block;
+    height: 35px;
+    width: 8px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: var(--gray5);
+    border-color: black;
+    margin-left: 50%;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+  }
+
+  .arrow-down{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+    margin-left: 49.515%;
+  }
+
+
   .intro-style{
     display: block;
     background-color: var(--bootstrap-gray400);
@@ -39,12 +86,14 @@ h1 {
     color: black;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
   }
 
   .projects-style{
     display: block;
     background-color: var(--bootstrap-gray400);
     color: var(--midnight-blue);
+    /* padding-top: 15px; */
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -70,3 +119,37 @@ h1 {
   /* .navbar-brand{
     text-align: center;
   } */
+
+.email-form{
+  display: block;
+  padding: 15px;
+  width: 75%;
+  margin: auto;
+  border: 3px solid gray;
+  background-color: var(--bootstrap-gray600);
+  margin-bottom: 50px;
+  border-radius: 20px;
+  color: var(--gray5);
+  margin-top: 50px;
+}
+
+.contact-label{
+  text-align: center;
+  margin: auto;
+}
+
+.layout-style{
+  background-color: var(--bootstrap-gray400);
+}
+
+.subtext{
+  color: var(--bootstrap-gray800);
+  font-weight: bold;
+  text-decoration: wavy;
+}
+.job-title{
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}

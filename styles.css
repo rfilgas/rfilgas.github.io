@@ -8,6 +8,7 @@
     --gray2: #555555;
     --gray3: #cccccc;
     --gray4: #aaaaaa;
+    --gray5: #262626;
     --bootstrap-gray100: #f8f9fa;
     --bootstrap-gray200: #e9ecef;
     --bootstrap-gray400: #ced4da;
@@ -47,6 +48,6 @@
   :target {
     display: block;
     position: relative;
-    top: -55px;
+    top: -70px;
     visibility: hidden;
 }
