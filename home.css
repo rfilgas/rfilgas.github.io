@@ -1,8 +1,34 @@
-h1 {
-    text-align: center;
+/* NAVBAR */
+nav.navbar{
+  background-color: var(--gray2);
+}
+/* NAVBAR */
+
+/* BOOTSTRAP GRID OUTER SCOPE */
+  .layout-style{
+    text-align: left;
+    background-color: var(--bootstrap-gray400);
+  }
+  /* BOOTSTRAP GRID OUTER SCOPE */
+
+
+/* BOOTSTRAP GRID SECTION SCOPE */
+  .sidebar-left{
+    display: block;
+    background-color: var(--darkgray);
+    color: var(--bootstrap-gray400);
+    height: 100%;
   }
 
+  .sidebar-right{
+    background-color: var(--bootstrap-gray400);
+    display: block;
+    width: 100%
+  }
+  /* BOOTSTRAP GRID SECTION SCOPE */
 
+
+  /* IMAGES */
   img.me {
     display: block;
     margin-left: auto;
@@ -12,41 +38,74 @@ h1 {
   }
 
   img.full-length-image{
-    border: 2px solid gray;
+    max-width: 960px;
     width: 100%;
+    margin: auto;
+    border: 2px solid gray;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
-  .bootstrap-grid .row > * {
-    padding: 0%;
+  img.half-length-image{
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    border: 2px solid gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
+    /* IMAGES */
+
+
+   /* BUTTONS */
+  .github{
+    margin: auto;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  /* BUTTONS */
+
+
 
   .title-style{
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
   }
-
-  nav.navbar{
-    background-color: var(--gray2);
+  h1 {
+    text-align: center;
   }
 
-  .line{
+
+  /* ARROW GRAPHIC */
+  .line-top{
+    margin: auto;
+    padding-top: 25px;
     display: block;
     height: 35px;
     width: 8px;
     border-radius: 4px;
     background-color: var(--gray5);
-    /* color: black; */
     border-color: black;
-    margin-left: 50%;
     border-style: solid;
-    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .line{
+    margin: auto;
+    display: block;
+    height: 35px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: var(--gray5);
+    border-color: black;
+    border-style: solid;
     margin-bottom: 10px;
   }
 
   .arrow-top{
+    margin: auto;
     display: block;
     height: 35px;
     width: 8px;
@@ -54,49 +113,88 @@ h1 {
     border-top-right-radius: 4px;
     background-color: var(--gray5);
     border-color: black;
-    margin-left: 50%;
     border-style: solid;
-    margin-top: 10px;
-    margin-bottom: 0px;
-
   }
 
   .arrow-down{
+    margin: auto;
+    display: block;
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid black;
-    margin-left: 49.515%;
   }
 
+  .full-arrow{
+    align-content: center;
+    background-color: var(--bootstrap-gray400);
+    padding-top: 25px;
+  }
+  /* ARROW GRAPHIC */
 
-  .intro-style{
+  /* Align Text */
+  .paragraph-block{
     display: block;
+    max-width: 960px;
+  }
+
+/* SECTION STYLES */
+  .intro-style{
+    margin: auto;
+    display: block;
+    text-align: left;
     background-color: var(--bootstrap-gray400);
     color: var(--midnight-blue);
     padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 25px;
+    max-width: 960px;
+
   }
 
   .cv-style{
+    margin: auto;
     display: block;
+    text-align: left;
     background-color: var(--bootstrap-gray400);
     color: black;
+    padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
+    max-width: 960px;
+
   }
 
   .projects-style{
+    margin: auto;
+    display: block;
+    text-align: left;
     display: block;
     background-color: var(--bootstrap-gray400);
     color: var(--midnight-blue);
-    /* padding-top: 15px; */
     padding-left: 50px;
     padding-right: 50px;
+    max-width: 960px;
+
   }
+
+  /* project text */
+  .subtext{
+    color: var(--bootstrap-gray800);
+    font-weight: bold;
+    text-decoration: wavy;
+  }
+
+  .job-title{
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+  }
+    /* project text */
 
   .contact-style{
     display: block;
@@ -104,22 +202,13 @@ h1 {
     color: black;
     padding-left: 50px;
     padding-right: 50px;
-  }
 
-  .sidebar-left{
-    display: block;
-    background-color: var(--darkgray);
-    color: var(--bootstrap-gray400);
-    height: 100%;
   }
+  /* END OF SECTION STYLES */
 
-  .sidebar-right{
-    width: fit-content;
-  }
-  /* .navbar-brand{
-    text-align: center;
-  } */
 
+
+  /* CONTACT SECTION */
 .email-form{
   display: block;
   padding: 15px;
@@ -136,20 +225,6 @@ h1 {
 .contact-label{
   text-align: center;
   margin: auto;
+  padding-bottom: 10px;
 }
-
-.layout-style{
-  background-color: var(--bootstrap-gray400);
-}
-
-.subtext{
-  color: var(--bootstrap-gray800);
-  font-weight: bold;
-  text-decoration: wavy;
-}
-.job-title{
-  font-weight: bold;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-
-}
+  /* CONTACT SECTION */

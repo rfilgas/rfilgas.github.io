@@ -1,205 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags for Bootstrap -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="home.css" />
-    <!-- javascript file -->
-  </head>
 
-      <!-- NAVBAR -->
-      <nav id="navbar-example2"  class="navbar navbar-expand-lg navbar-dark fixed-top ">
-        <ul class="navbar-nav ml-auto">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<head>
+  <!-- Required meta tags for Bootstrap -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css" />
+  <!-- javascript file -->
+</head>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-
-            <ul class="navbar-nav ml-auto">
-
-              <li class="nav-item">
-                <a class="nav-link" href="#intro">Intro</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#cv">CV</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            <ul>
-          </div>
-        </ul>
-      </nav>
-      <!-- NAVBAR -->
-
-
-  <body>
-    <!-- CONTENT-->
-    <div>
-      <!-- EVERYTHING -->
-      <span id="layout" ></span> <!-- Target for menu -->
-      <div class="bootstrap-grid layout-style">
-        <div class="row" >
-
-          <!-- SIDEBAR LEFT -->
-          <section class = "col-lg-3 col-md-4 ">
-            <div id="title-container" class="sidebar-left" >
-              <!-- IMAGE -->
-              <span id="image" ></span> <!-- Target for menu -->
-              <div class="bootstrap-grid title-style" >
-                <div class="row">
-                  <div class="col-12" id="title-container">
-                    <img class ="me" src="../images/rfilgas.png" alt="headshot of Ryan Filgas" width="200" height="200" />
-                  </div>
-                </div>
-              </div>
-              <!-- IMAGE -->
-
-              <!-- TITLE -->
-              <span id="title"></span> <!-- Target for menu -->
-              <div class="bootstrap-grid title-style">
-                <div class="row">
-                  <div class="col-12" id="title-container">
-                  </div>
-                </div>
-              </div>
-              <!-- TITLE -->
-            </div>
-          </section>
-          <!-- SIDEBAR LEFT -->
-
-          <!-- SIDEBAR RIGHT -->
-          <div class="col-lg-9 col-md-8 sidebar-right" id="title-container">
-
-            <!-- INTRO -->
-            <span id="intro" ></span> <!-- Target for menu -->
-            <div class="bootstrap-grid intro-style">
-              <div class="row">
-                <div class="col-12" id="intro-container">
-                  <h4 id="intro-style" class="component">Hello.</h4>
-                </div>
-              </div>
-            </div>
-
-            <!-- DIVIDER -->
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="arrow-top"></div>
-            <div class="arrow-down"></div>
-
-            <!-- CV -->
-            <span id="cv" ></span> <!-- Target for menu -->
-            <div class="bootstrap-grid cv-style">
-              <div class="row">
-                <div class="col-12">
-                  <h4 id="pcv-style" class="component">CV</h4>
-
-                  <p class = "job-title">SRE Engineering Intern</p>
-                  <ul>
-                    <li class = "subtext">Apex Clearing Inc. | July 2022 - Present</li>
-                    <li>Software Engineering Intern - Trimble Inc | Jan 2022 - June 2022</li>
-                    <li>Technical Course Support Specialist & Grader - Portland State University | Jan 2021 - Dec 2021</li>
-                  <ul>
-
-                </div>
-              </div>
-            </div>
-            <!-- CV -->
-
-            <!-- DIVIDER -->
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="arrow-top"></div>
-            <div class="arrow-down"></div>
-
-
-            <!-- PROJECTS -->
-            <span id="projects" ></span> <!-- Target for menu -->
-            <div class="bootstrap-grid projects-style">
-              <div class="row">
-                <div class="col-12">
-                  <h4 id="projects-style" class="component">Projects</h4>
-                  <div id="project_1"></div>
-                  <div id="project_2"></div>
-                  <div id="project_3"></div>
-                </div>
-              </div>
-            </div>
-            <!-- PROJECTS -->
-
-            <!-- DIVIDER -->
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="arrow-top"></div>
-            <div class="arrow-down"></div>
-
-
-
-            <!-- CONTACT -->
-            <span id="contact" ></span><!-- Target for menu -->
-            <div class="bootstrap-grid contact-style">
-              <div class="row">
-                <div class="col-12">
-                  <h4 id="contact-style" class="component"></h4>
-                  <!-- FORM -->
-
-                  <form class="email-form">
-                    <div class="form-group">
-                      <h3 class="contact-label">Call me. Beep me. If you want to reach me.</h3>
-                      <label for="exampleFormControlInput1">Email address</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlSelect1">Reason:</label>
-                      <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Congrats!</option>
-                        <option>Job Opportunity ;)</option>
-                        <option>Question</option>
-                      </select>
-                    </div>
-                      <label for="exampleFormControlTextarea1">Example textarea</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                  </form>
-
-
-
-
-
-                </div>
-              </div>
-            </div>
-            <!-- CONTACT -->
-          </div>
-          <!-- SIDEBAR RIGHT -->
-
-        </div>
-      </div>
+<!-- NAVBAR -->
+<nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark fixed-top ">
+  <ul class="navbar-nav ml-auto">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">Intro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cv">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-    <!-- CONTENT END -->
+  </ul>
+</nav>
+<!-- END NAVBAR -->
 
 
-    <!-- Bootstrap Dependencies -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Bootstrap Dependencies -->
-    <script defer src="home.js"></script>
-  </body>
+<body>
+  <!-- CONTENT-->
+  <div>
+    <!-- EVERYTHING -->
+    <span id="layout"></span> <!-- Target for menu -->
+    <div class="bootstrap-grid layout-style">
+      <div class="row">
+
+        <!-- SIDEBAR LEFT -->
+        <section class="col-lg-3 col-md-4 ">
+          <div id="title-container" class="sidebar-left">
+            <!-- IMAGE -->
+            <span id="image"></span> <!-- Target for menu -->
+            <div class="bootstrap-grid title-style">
+              <div class="row">
+                <div class="col-12" id="title-container">
+                  <img class="me" src="../images/rfilgas.png" alt="headshot of Ryan Filgas" width="200" height="200" />
+                </div>
+              </div>
+            </div>
+            <!-- IMAGE -->
+
+            <!-- TITLE -->
+            <span id="title"></span> <!-- Target for menu -->
+            <div class="bootstrap-grid title-style">
+              <div class="row">
+                <div class="col-12" id="title-container">
+                </div>
+              </div>
+            </div>
+            <!-- TITLE -->
+          </div>
+        </section>
+        <!-- END SIDEBAR LEFT -->
+
+        <!-- SIDEBAR RIGHT -->
+        <div class="col-lg-9 col-md-8 sidebar-right" id="title-container">
+
+          <!-- INTRO -->
+          <span id="intro"></span> <!-- Target for menu -->
+          <div class="bootstrap-grid intro-style">
+            <div class="row">
+              <div class="col-12" id="intro-container">
+                <h1 id="intro-style" class="component">Hello.</h1>
+              </div>
+            </div>
+          </div>
+
+          <!-- DIVIDER -->
+          <div class="full-arrow">
+            <div class="line-top"></div>
+            <div class="line"></div>
+            <div class="arrow-top"></div>
+            <div class="arrow-down"></div>
+          </div>
+
+          <!-- CV -->
+          <span id="cv"></span> <!-- Target for menu -->
+          <div class="bootstrap-grid cv-style">
+            <div class="row">
+              <div class="col-12 paragraph-block">
+                <h2 id="pcv-style" class="component">CV</h2>
+                <p class="job-title">SRE Engineering Intern</p>
+                <p class="subtext">Apex Clearing Inc. | Jul 2022 - Present</p>
+                <p class="job-title">Software Engineering Intern</p>
+                <p class="subtext">Trimble Inc. | Jan 2022 - Jun 2022</p>
+                <p class="job-title">Technical Course Support Specialist & Grader</p>
+                <p class="subtext">Portland State University | Jan 2021 - Dec 2022</p>
+              </div>
+            </div>
+          </div>
+          <!-- CV -->
+
+          <!-- DIVIDER -->
+          <div class="full-arrow">
+            <div class="line-top"></div>
+            <div class="line"></div>
+            <div class="arrow-top"></div>
+            <div class="arrow-down"></div>
+          </div>
+
+
+          <!-- PROJECTS -->
+          <span id="projects"></span> <!-- Target for menu -->
+          <div class="bootstrap-grid projects-style">
+            <div class="row">
+              <div class="col-12">
+                <h2 id="projects-style" class="component">Projects</h2>
+
+                <!-- PROJECT 1 -->
+                <div id="project_1"></div>
+                <form class="github">
+                  <button formaction="https://github.com/rfilgas/GCP_Data_Pipeline_Infrastructure"
+                    class="btn btn-dark">See it on GitHub</button>
+                </form>
+
+                <!-- DIVIDER -->
+                <div class="full-arrow">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div id="project_2"></div>
+                <form class="github">
+                  <button formaction="https://github.com/rfilgas/noise_reduction_through_image_fusion"
+                    class="btn btn-dark">See it on GitHub</button>
+                </form>
+
+                <!-- DIVIDER -->
+                <div class="full-arrow">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div id="project_3"></div>
+                <form class="github">
+                  <button formaction="https://github.com/rfilgas/optical-flow" class="btn btn-dark">See it on
+                    GitHub
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- END OF PROJECTS BOOTSTRAP GRID -->
+          </div>
+          <!-- END OF PROJECTS -->
+
+
+          <!-- DIVIDER -->
+          <div class="full-arrow">
+            <div class="line-top"></div>
+            <div class="line"></div>
+            <div class="arrow-top"></div>
+            <div class="arrow-down"></div>
+          </div>
+
+
+          <!-- CONTACT -->
+          <span id="contact"></span><!-- Target for menu -->
+          <div class="bootstrap-grid contact-style">
+            <div class="row">
+              <div class="col-12">
+                <h4 id="contact-style" class="component"></h4>
+
+                <!-- FORM -->
+                <form class="email-form">
+                  <div class="form-group">
+                    <h3 class="contact-label">Call me. Beep me. If you want to reach me.</h3>
+                    <h6 class="contact-label">(Actually please use this form. I won't know you're not a bot.)</h6>
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Reason:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Congrats!</option>
+                      <option>Job Opportunity ;)</option>
+                      <option>Question</option>
+                    </select>
+                  </div>
+                  <label for="email-input">Message:</label>
+                  <textarea class="form-control" id="email-input" rows="3"></textarea>
+              </div>
+              </form>
+              <!-- END FORM -->
+            </div>
+            <!-- END OF CONTACT BOOTSTRAP GRID -->
+          </div>
+        </div>
+        <!-- END OF CONTACT -->
+      </div>
+      <!-- END OF SIDEBAR RIGHT -->
+    </div>
+    <!-- END OF FULL PAGE BOOTSTRAP GRID -->
+  </div>
+  <!-- CONTENT END -->
+
+
+
+  <!-- Bootstrap Dependencies -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Dependencies -->
+  <script defer src="home.js"></script>
+</body>
 </html>

@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+  .bootstrap-grid .row > * {
+    padding: 0%;
+  }
 
   :root {
     --white: #ffffff;
@@ -45,6 +48,7 @@
     padding-top: 55px;
   }
 
+  /* Adjust link targets due to floating menu. */
   :target {
     display: block;
     position: relative;
