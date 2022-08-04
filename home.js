@@ -3,14 +3,10 @@
 //       1. Styles are located under the declaration.
 //       2. Appending of child elements comes at the end.
 
-
-
 // Collapse navbar on click
 $('.navbar-nav').click(function(){
     $('.navbar-collapse').collapse('hide');
 });
-
-
 
 // TITLE BLOCK
 let title = document.getElementById('title-container');
@@ -69,8 +65,6 @@ intro_block.appendChild(intro_textp2);
 intro_block.appendChild(intro_textp3);
 // END INTRO BLOCK
 
-
-
 // PROJECT 1 -> Elements styles come immediately after their declaration.
 let project_1 = document.getElementById('project_1');
 let p1_title = document.createElement('h3');
@@ -104,8 +98,6 @@ project_1.appendChild(p1_title);
 project_1.appendChild(p1_description);
 project_1.appendChild(p1_ref_image);
 // END PROJECT 1
-
-
 
 // PROJECT 2 -> Elements styles come immediately after their declaration.
 let project_2 = document.getElementById('project_2');
@@ -152,8 +144,6 @@ project_2.appendChild(p2_ref_image);
 project_2.appendChild(p2_ref_image2);
 project_2.appendChild(p2_ref_image3);
 // END PROJECT 2
-
-
 
 // PROJECT 3 -> Elements styles come immediately after their declaration.
 let project_3 = document.getElementById('project_3');
