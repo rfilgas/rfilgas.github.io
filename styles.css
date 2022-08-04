@@ -19,11 +19,6 @@
     --bootstrap-gray600: #6c757d;
     --bootstrap-gray700: #495057;
     --bootstrap-gray800: #343a40;
-
-
-
-
-
     --black: #080808;
     --darkgray: #121217;
     --darkishgray: #4d0f0f;
@@ -41,7 +36,7 @@
   }
 
   body {
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "sans-serif";
     font-size: 1.2em;
     color: var(--gray1);
     position: relative;

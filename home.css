@@ -87,7 +87,7 @@ nav.navbar{
     width: 8px;
     border-radius: 4px;
     background-color: var(--gray5);
-    border-color: black;
+    border-color: var(--gray5);
     border-style: solid;
     margin-bottom: 10px;
   }
@@ -99,7 +99,7 @@ nav.navbar{
     width: 8px;
     border-radius: 4px;
     background-color: var(--gray5);
-    border-color: black;
+    border-color: var(--gray5);
     border-style: solid;
     margin-bottom: 10px;
   }
@@ -112,7 +112,7 @@ nav.navbar{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     background-color: var(--gray5);
-    border-color: black;
+    border-color:var(--gray5);
     border-style: solid;
   }
 
@@ -123,13 +123,14 @@ nav.navbar{
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 20px solid black;
+    border-top: 20px solid;
+    border-top-color: var(--gray5);;
   }
 
   .full-arrow{
     align-content: center;
-    background-color: var(--bootstrap-gray400);
     padding-top: 25px;
+
   }
   /* ARROW GRAPHIC */
 
@@ -138,8 +139,17 @@ nav.navbar{
     display: block;
     max-width: 960px;
   }
+  .paragraph-heading{
+    font-size: 20px;
+    font-weight: bold;
+  }
 
 /* SECTION STYLES */
+
+  .intro-heading{
+    text-align: left;
+
+  }
   .intro-style{
     margin: auto;
     display: block;
@@ -154,6 +164,10 @@ nav.navbar{
 
   }
 
+  .cv-title{
+    padding-bottom: 10px;
+  }
+
   .cv-style{
     margin: auto;
     display: block;
@@ -165,7 +179,6 @@ nav.navbar{
     padding-right: 50px;
     padding-bottom: 50px;
     max-width: 960px;
-
   }
 
   .projects-style{
@@ -182,8 +195,17 @@ nav.navbar{
   }
 
   /* project text */
-  .subtext{
+  h3{
+    color: black;
+    font-size: 22px;;
+    font-weight: bold;
+    text-decoration: wavy;
+    padding-bottom: 10px;
+  }
+
+  h4{
     color: var(--bootstrap-gray800);
+    font-size: 15px;
     font-weight: bold;
     text-decoration: wavy;
   }
@@ -215,16 +237,36 @@ nav.navbar{
   width: 75%;
   margin: auto;
   border: 3px solid gray;
-  background-color: var(--bootstrap-gray600);
+  background-color: var(--bootstrap-gray800);
   margin-bottom: 50px;
   border-radius: 20px;
   color: var(--gray5);
   margin-top: 50px;
+  color: var(--bootstrap-gray400);
+}
+
+.message-input{
+  margin-bottom: 15px;
+}
+.message-submit{
+  margin: auto;
+  text-align: center;
+}
+
+.contact-label1{
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  font-size: 37px;
+  padding-bottom: 10px;
+  color: var(--bootstrap-gray400);
 }
 
 .contact-label{
   text-align: center;
   margin: auto;
   padding-bottom: 10px;
+  font-size: 15px;
+  color: var(--bootstrap-gray400);
 }
   /* CONTACT SECTION */

@@ -3,10 +3,14 @@
 //       1. Styles are located under the declaration.
 //       2. Appending of child elements comes at the end.
 
+
+
 // Collapse navbar on click
-$('.navbar-nav').click(function () {
+$('.navbar-nav').click(function(){
     $('.navbar-collapse').collapse('hide');
 });
+
+
 
 // TITLE BLOCK
 let title = document.getElementById('title-container');
@@ -17,15 +21,22 @@ let title_textp0 = document.createElement("h1");
 title_textp0.textContent = `
 Ryan Filgas`
 title_textp0.style.textAlign = "center";
+title_textp0.style.maxWidth = "95%";
+title_textp0.style.paddingLeft = "25px";
 
-let title_textp1 = document.createElement("h6")
+let title_textp1 = document.createElement("p");
 title_textp1.textContent = `
-Software Engineer | Student`
+Software Engineer | Student`;
 title_textp1.style.textAlign = "center";
+title_textp1.style.paddingLeft = "14px";
+title_textp1.style.maxWidth = "90%";
+// title_textp1.style.fontWeight = "bold";
+title_textp1.style.fontSize = "10";
 
 prior_block.appendChild(title_textp0);
 prior_block.appendChild(title_textp1);
 // END TITLE BLOCK
+
 
 
 // INTRO BLOCK
@@ -33,18 +44,19 @@ let intro = document.getElementById('intro-container');
 let intro_block = document.createElement("div");
 intro.appendChild(intro_block);
 
-
-let intro_textp2 = document.createElement("p")
+let intro_textp2 = document.createElement("p");
+intro_textp2.alt="text";
 intro_textp2.textContent = `
 As a former professional photographer turned engineer, I bring the same creativity
 and problem solving to engineering as I did to the arts. My primary focuses are on building knowledge
 in the fields of infrastructure engineering and machine learning while hatching new ideas for the next
 industry disrupting startup in my spare time. I'm always thinking about how to improve daily life by imagining
-new tools for human-centric software.`
+new tools for human-centric software.`;
 
 let intro_textp3 = document.createElement("p");
 intro_textp3.style.paddingBottom = "0%";
 intro_textp3.style.marginBottom = "0%";
+intro_textp3.alt="text";
 intro_textp3.textContent = `
 In general I'm really passionate about efficiency, creativity, and
 creating a more inclusive world; these things in general shape the projects I'm most
@@ -61,17 +73,18 @@ intro_block.appendChild(intro_textp3);
 
 // PROJECT 1 -> Elements styles come immediately after their declaration.
 let project_1 = document.getElementById('project_1');
-let p1_title = document.createElement('h5');
-p1_title.className = "paragraph-block";
+let p1_title = document.createElement('h3');
+p1_title.className = "paragraph-block paragraph-heading";
 p1_title.style.paddingTop = "15px";
 p1_title.style.margin = "auto";
 p1_title.textContent = 'Google Cloud Data Pipeline Infrastructure | HCL ~ Kafka ~ Bash Scripts';
-p1_title.style.textDecoration = "underline";
+
 
 let p1_description = document.createElement('p');
 p1_description.className = "paragraph-block";
 p1_description.style.paddingTop = "5px";
 p1_description.style.margin = "auto";
+p1_description.alt="text";
 p1_description.textContent = `
 After taking data engineering at Portland State it occurred to me that the entire project build could be automated and
 scalable, saving valuable class time and resources. Over a break between terms I sketched out what the infrastructure
@@ -85,7 +98,7 @@ class project using golang and the trimet API. The proposed architecture and git
 let p1_ref_image = document.createElement('img');
 p1_ref_image.className = "full-length-image";
 p1_ref_image.src = "images/gcp_pipeline.png";
-p1_ref_image.alt = "Image of google cloud platform data pipeline";
+p1_ref_image.alt = "google cloud platform data pipeline";
 
 project_1.appendChild(p1_title);
 project_1.appendChild(p1_description);
@@ -94,21 +107,21 @@ project_1.appendChild(p1_ref_image);
 
 
 
-
 // PROJECT 2 -> Elements styles come immediately after their declaration.
 let project_2 = document.getElementById('project_2');
 
-let p2_title = document.createElement('h5');
-p2_title.className = "paragraph-block";
+let p2_title = document.createElement('h3');
+p2_title.className = "paragraph-block paragraph-heading";
 p2_title.style.paddingTop = "15px";
 p2_title.style.margin = "auto";
 p2_title.textContent = 'Noise Reduction Through Image Fusion | A Novel Application of OpenCV';
-p2_title.style.textDecoration = "underline";
+
 
 let p2_description = document.createElement('p');
 p2_description.className = "paragraph-block";
 p2_description.style.paddingTop = "5px";
 p2_description.style.margin = "auto";
+p2_description.alt="text";
 p2_description.textContent = `In the course of my photography career I picked up a number of tips and tricks
 when shooting, lighting, assisting, and retouching. In this project I applied a shooting and retouching technique
 that allows for the fusion of multiple exposures not for HDR, but for noise reduction. Given a 2 image bracket this
@@ -141,20 +154,22 @@ project_2.appendChild(p2_ref_image3);
 // END PROJECT 2
 
 
+
 // PROJECT 3 -> Elements styles come immediately after their declaration.
 let project_3 = document.getElementById('project_3');
 project_3.style.paddingBottom = "15px"; // Padding for ending button.
 
-let p3_title = document.createElement('h5');
-p3_title.className = "paragraph-block";
+let p3_title = document.createElement('h3');
+p3_title.className = "paragraph-block paragraph-heading";
 p3_title.style.paddingTop = "15px";
 p3_title.style.margin = "auto";
 p3_title.textContent = 'Optical Flow Algorithm Implementation | Python';
-p3_title.style.textDecoration = "underline";
+
 
 let p3_description = document.createElement('p');
 p3_description.className = "paragraph-block";
 p3_description.style.paddingTop = "5px";
+p3_description.style.paddingBottom = "10px"
 p3_description.style.margin = "auto";
 p3_description.textContent = `The goal of the optical flow algorithm is to
 essentially detect motion between two or more image frames. Below the results can be seen
@@ -164,7 +179,7 @@ seen as "hotspots" of motion. Further implementation details can be seen in the 
 let p3_ref_image = document.createElement('img');
 p3_ref_image.className = "half-length-image";
 p3_ref_image.src = "images/optical_flow.jpg";
-p3_ref_image.alt = "Image of optical flow algorithm in action.";
+p3_ref_image.alt = "Optical flow example";
 p3_ref_image.style.margin = "auto"
 
 project_3.appendChild(p3_title);
