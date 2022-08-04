@@ -9,10 +9,12 @@ To run the project follow the below instructions.
 3. If vscode was chosen and live server is installed, right click on index.html and click "open in live server".
 
 General Resources:
+
 https://developer.mozilla.org/en-US/
 https://getbootstrap.com/2.3.2/components.html
 
 Specific Resouces Used:
+
 https://getbootstrap.com/docs/4.0/components/navbar/
 https://stackoverflow.com/questions/16680543/hide-twitter-bootstrap-nav-collapse-on-click
 https://getbootstrap.com/docs/4.0/utilities/embed/
