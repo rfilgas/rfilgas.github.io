@@ -10,12 +10,13 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="home.css" />
+  <title hidden>Ryan Filgas</title>
   <!-- javascript file -->
 </head>
 
 <!-- NAVBAR -->
-<nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark fixed-top ">
-  <ul class="navbar-nav ml-auto">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="navbar-nav ml-auto">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,29 +24,28 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#intro">Intro</a>
+          <a class="nav-link" href="#intro-begin">Intro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#cv">CV</a>
+          <a class="nav-link" href="#cv-begin">CV</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#projects-begin">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#contact-begin">Contact</a>
         </li>
       </ul>
     </div>
-  </ul>
+  </div>
 </nav>
 <!-- END NAVBAR -->
-
 
 <body>
   <!-- CONTENT-->
   <div>
     <!-- EVERYTHING -->
-    <span id="layout"></span> <!-- Target for menu -->
+    <span id="layout"></span>
     <div class="bootstrap-grid layout-style">
       <div class="row">
 
@@ -53,19 +53,18 @@
         <section class="col-lg-3 col-md-4 ">
           <div id="title-container" class="sidebar-left">
             <!-- IMAGE -->
-            <span id="image"></span> <!-- Target for menu -->
-            <div class="bootstrap-grid title-style">
+
+            <div id="image" class="bootstrap-grid title-style">
               <div class="row">
                 <div class="col-12" id="title-container">
-                  <img class="me" src="../images/rfilgas.png" alt="headshot of Ryan Filgas" width="200" height="200" />
+                  <img type="image" class="me" src="../images/rfilgas.png" alt="headshot of Ryan Filgas" width="200" height="200" />
                 </div>
               </div>
             </div>
             <!-- IMAGE -->
 
             <!-- TITLE -->
-            <span id="title"></span> <!-- Target for menu -->
-            <div class="bootstrap-grid title-style">
+            <div id="title-block" class="bootstrap-grid title-style">
               <div class="row">
                 <div class="col-12" id="title-container">
                 </div>
@@ -80,11 +79,11 @@
         <div class="col-lg-9 col-md-8 sidebar-right" id="title-container">
 
           <!-- INTRO -->
-          <span id="intro"></span> <!-- Target for menu -->
+          <span id="intro-begin"></span> <!-- Target for menu -->
           <div class="bootstrap-grid intro-style">
             <div class="row">
               <div class="col-12" id="intro-container">
-                <h1 id="intro-style" class="component">Hello.</h1>
+                <h1 id="intro-hello" class="intro-heading">Hello.</h1>
               </div>
             </div>
           </div>
@@ -98,17 +97,17 @@
           </div>
 
           <!-- CV -->
-          <span id="cv"></span> <!-- Target for menu -->
+          <span id="cv-begin"></span> <!-- Target for menu -->
           <div class="bootstrap-grid cv-style">
             <div class="row">
               <div class="col-12 paragraph-block">
-                <h2 id="pcv-style" class="component">CV</h2>
-                <p class="job-title">SRE Engineering Intern</p>
-                <p class="subtext">Apex Clearing Inc. | Jul 2022 - Present</p>
-                <p class="job-title">Software Engineering Intern</p>
-                <p class="subtext">Trimble Inc. | Jan 2022 - Jun 2022</p>
-                <p class="job-title">Technical Course Support Specialist & Grader</p>
-                <p class="subtext">Portland State University | Jan 2021 - Dec 2022</p>
+                <h2 id="cv" class="component cv-title">CV</h2>
+                <h3 class="job-title">SRE Engineering Intern</h3>
+                <h4 class="subtext">Apex Clearing Inc. | Jul 2022 - Present</h4>
+                <h3 class="job-title">Software Engineering Intern</h3>
+                <h4 class="subtext">Trimble Inc. | Jan 2022 - Jun 2022</h4>
+                <h3 class="job-title">Technical Course Support Specialist & Grader</h3>
+                <h4 class="subtext">Portland State University | Jan 2021 - Dec 2022</h4>
               </div>
             </div>
           </div>
@@ -122,9 +121,8 @@
             <div class="arrow-down"></div>
           </div>
 
-
           <!-- PROJECTS -->
-          <span id="projects"></span> <!-- Target for menu -->
+          <span id="projects-begin"></span> <!-- Target for menu -->
           <div class="bootstrap-grid projects-style">
             <div class="row">
               <div class="col-12">
@@ -133,8 +131,8 @@
                 <!-- PROJECT 1 -->
                 <div id="project_1"></div>
                 <form class="github">
-                  <button formaction="https://github.com/rfilgas/GCP_Data_Pipeline_Infrastructure"
-                    class="btn btn-dark">See it on GitHub</button>
+                  <link type="url" id="github-data-pipeline"><button formaction="https://github.com/rfilgas/GCP_Data_Pipeline_Infrastructure"
+                    class="btn btn-dark" type="url">See it on GitHub</button></link>
                 </form>
 
                 <!-- DIVIDER -->
@@ -146,12 +144,12 @@
                 <!-- PROJECT 2 -->
                 <div id="project_2"></div>
                 <form class="github">
-                  <button formaction="https://github.com/rfilgas/noise_reduction_through_image_fusion"
-                    class="btn btn-dark">See it on GitHub</button>
+                  <link type="url" id="github-noise-reduction"><button formaction="https://github.com/rfilgas/noise_reduction_through_image_fusion"
+                    class="btn btn-dark" type="url">See it on GitHub</button></link>
                 </form>
 
                 <!-- DIVIDER -->
-                <div class="full-arrow">
+                <div class="full-arrow" alt="arrow-graphic">
                   <div class="line"></div>
                   <div class="line"></div>
                 </div>
@@ -159,9 +157,9 @@
                 <!-- PROJECT 3 -->
                 <div id="project_3"></div>
                 <form class="github">
-                  <button formaction="https://github.com/rfilgas/optical-flow" class="btn btn-dark">See it on
+                  <link type="url" id="github-optical-flow"><button formaction="https://github.com/rfilgas/optical-flow" class="btn btn-dark" type="url">See it on
                     GitHub
-                  </button>
+                  </button></link>
                 </form>
               </div>
             </div>
@@ -169,45 +167,46 @@
           </div>
           <!-- END OF PROJECTS -->
 
-
           <!-- DIVIDER -->
-          <div class="full-arrow">
+          <div class="full-arrow" alt="arrow-graphic">
             <div class="line-top"></div>
             <div class="line"></div>
             <div class="arrow-top"></div>
             <div class="arrow-down"></div>
           </div>
 
-
           <!-- CONTACT -->
-          <span id="contact"></span><!-- Target for menu -->
+          <span id="contact-begin"></span><!-- Target for menu -->
           <div class="bootstrap-grid contact-style">
             <div class="row">
               <div class="col-12">
-                <h4 id="contact-style" class="component"></h4>
+                <div id="contact-style" class="component"></div>
 
                 <!-- FORM -->
                 <form class="email-form">
                   <div class="form-group">
-                    <h3 class="contact-label">Call me. Beep me. If you want to reach me.</h3>
-                    <h6 class="contact-label">(Actually please use this form. I won't know you're not a bot.)</h6>
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                    <h2 class="contact-label1">Call me. Beep me. If you want to reach me.</h2>
+                    <p class="contact-label">(Actually please use this form. I won't know you're not a bot.)</p>
+                    <label for="emailControl">Email address</label>
+                    <input type="email" class="form-control" id="emailControl"
                       placeholder="name@example.com">
                   </div>
                   <div class="form-group">
-                    <label for="exampleFormControlSelect1">Reason:</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <label for="reasonControl">Reason:</label>
+                    <select class="form-control" id="reasonControl">
                       <option>Congrats!</option>
                       <option>Job Opportunity ;)</option>
                       <option>Question</option>
                     </select>
                   </div>
-                  <label for="email-input">Message:</label>
-                  <textarea class="form-control" id="email-input" rows="3"></textarea>
+                  <label for="message-input">Message:</label>
+                  <textarea class="form-control message-input" id="message-input" rows="3"></textarea>
+                  <div class="message-submit">
+                    <button type="submit" class="btn btn-primary btn-dark message-input">Submit</button>
+                  </div>
+                </form>
+                <!-- END FORM -->
               </div>
-              </form>
-              <!-- END FORM -->
             </div>
             <!-- END OF CONTACT BOOTSTRAP GRID -->
           </div>
@@ -219,8 +218,6 @@
     <!-- END OF FULL PAGE BOOTSTRAP GRID -->
   </div>
   <!-- CONTENT END -->
-
-
 
   <!-- Bootstrap Dependencies -->
   <!-- Optional JavaScript -->
