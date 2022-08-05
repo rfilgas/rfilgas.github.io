@@ -19,6 +19,7 @@ Ryan Filgas`
 title_textp0.style.textAlign = "center";
 title_textp0.style.maxWidth = "95%";
 title_textp0.style.paddingLeft = "25px";
+title_textp0.className = "my-name";
 
 let title_textp1 = document.createElement("p");
 title_textp1.textContent = `
