@@ -2,7 +2,7 @@
 nav.navbar{
   background-color: var(--gray2);
 }
-/* NAVBAR */
+
 
 /* BOOTSTRAP GRID OUTER SCOPE */
   .layout-style{
@@ -20,6 +20,7 @@ nav.navbar{
     height: 100%;
   }
 
+
   .sidebar-right{
     background-color: var(--bootstrap-gray400);
     display: block;
@@ -35,7 +36,9 @@ nav.navbar{
     margin-right: auto;
     width: fit-content;
     border-radius: 100px;
+    padding-bottom: 10px;
   }
+
 
   img.full-length-image{
     max-width: 960px;
@@ -46,6 +49,7 @@ nav.navbar{
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
 
   img.half-length-image{
     max-width: 960px;
@@ -67,7 +71,6 @@ nav.navbar{
     text-align: center;
   }
   /* BUTTONS */
-
 
 
   .title-style{
@@ -94,6 +97,7 @@ nav.navbar{
     margin-bottom: 10px;
   }
 
+
   .line{
     margin: auto;
     display: block;
@@ -105,6 +109,20 @@ nav.navbar{
     border-style: solid;
     margin-bottom: 10px;
   }
+
+
+  .line-black{
+    margin: auto;
+    display: block;
+    height: 35px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 10px;
+  }
+
 
   .arrow-top{
     margin: auto;
@@ -118,6 +136,20 @@ nav.navbar{
     border-style: solid;
   }
 
+
+  .bottom-line-section{
+    margin: auto;
+    display: block;
+    height: 35px;
+    width: 8px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+  }
+
+
   .arrow-down{
     margin: auto;
     display: block;
@@ -126,8 +158,22 @@ nav.navbar{
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid;
-    border-top-color: var(--mustard);
+    border-top-color: black;
   }
+
+
+  .arrow-down-dark{
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid;
+    border-top-color: black;
+
+  }
+
 
   .full-arrow{
     align-content: center;
@@ -136,11 +182,14 @@ nav.navbar{
   }
   /* ARROW GRAPHIC */
 
+
   /* Align Text */
   .paragraph-block{
     display: block;
     max-width: 960px;
   }
+
+
   .paragraph-heading{
     font-size: 20px;
     font-weight: bold;
@@ -161,14 +210,16 @@ nav.navbar{
     padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     max-width: 960px;
 
   }
 
+
   .cv-title{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
+
 
   .cv-style{
     margin: auto;
@@ -176,12 +227,13 @@ nav.navbar{
     text-align: left;
     background-color: var(--bootstrap-gray400);
     color: black;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     max-width: 960px;
   }
+
 
   .projects-style{
     margin: auto;
@@ -193,8 +245,8 @@ nav.navbar{
     padding-left: 50px;
     padding-right: 50px;
     max-width: 960px;
-
   }
+
 
   /* project text */
   h3{
@@ -205,6 +257,7 @@ nav.navbar{
     padding-bottom: 10px;
   }
 
+
   h4{
     color: var(--bootstrap-gray800);
     font-size: 15px;
@@ -212,13 +265,14 @@ nav.navbar{
     text-decoration: wavy;
   }
 
+
   .job-title{
     font-weight: bold;
     padding-bottom: 0px;
     margin-bottom: 0px;
-
   }
     /* project text */
+
 
   .contact-style{
     display: block;
@@ -226,7 +280,6 @@ nav.navbar{
     color: black;
     padding-left: 50px;
     padding-right: 50px;
-
   }
   /* END OF SECTION STYLES */
 
@@ -251,10 +304,13 @@ nav.navbar{
 .message-input{
   margin-bottom: 15px;
 }
+
+
 .message-submit{
   margin: auto;
   text-align: center;
 }
+
 
 .contact-label1{
   text-align: center;
@@ -264,6 +320,7 @@ nav.navbar{
   padding-bottom: 10px;
   color: var(--bootstrap-gray400);
 }
+
 
 .contact-label{
   text-align: center;
