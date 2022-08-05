@@ -22,5 +22,10 @@ Specific Resouces Used:
 - https://www.w3schools.com/howto/howto_css_vertical_line.asp
 - https://css-tricks.com/snippets/css/css-triangle
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+- https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy
+- https://developer.mozilla.org/en-US/docs/Web/API/setTimeout
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event
+- https://getbootstrap.com/docs/4.0/components/buttons/
+- https://www.w3schools.com/howto/howto_html_download_link.asp
 
 Happy travels!
