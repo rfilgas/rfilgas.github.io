@@ -1,6 +1,6 @@
 $(document).ready(() => {
 
-    // Function to change button color yellow
+    // Function to change button color yellow and modify text
     function turnYellow(button){
         button.innerHTML = 'Sent! Talk soon!';
         button.style.backgroundColor = 'var(--mustard)';
